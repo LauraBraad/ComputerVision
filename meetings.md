@@ -25,3 +25,8 @@
 
 Questions: 
 - The method of testing many methods on the same model and see the variance and mean in between ?? 
+
+- Dataset: Should we use the entire coco dataset or would it make sense for us to only use a subset, to see the change with data augmentation? (Which way to view the problem?)
+- YOLO: If we want to do data augmentation on the training data, and we now have used the yolo model, you have given, is this then possible? Can we change the weights?? 
+- We are mainly using the code you have provided, is this okay? We think our task is the comparison part... 
+- Are there any guidlines for the length of the report? 
