@@ -30,3 +30,31 @@ Questions:
 - YOLO: If we want to do data augmentation on the training data, and we now have used the yolo model, you have given, is this then possible? Can we change the weights?? 
 - We are mainly using the code you have provided, is this okay? We think our task is the comparison part... 
 - Are there any guidlines for the length of the report? 
+
+
+Notes:
+
+- Training, check darknet, use higher levels of yolo, https://github.com/WongKinYiu/yolov7
+    - pretrained models, 
+    - small models, firstly
+    - yolo code, first download model, accuracy is the same. Further train it, first with pictures, and then after with our data augmentation.
+    - measure? model same, inference speed would be the same. Different methods would take more or less time. 
+    - train on hole data set(coco), same procedure is correct. 
+        - randomness
+        - downlaod already trained model
+        - retrain the model and confirm accuracy. 
+        - train with the same procedure
+
+        - start experiment, remove data augmentation from the original
+        - then we should use different methods, one by one or more together, and train. (aplecation study)
+        - see results
+
+        - next step, reduce coco(subset)
+        - see what we can do with data augmentation, and see which methods works best. 
+
+- metoder, kig på hvilke der er brugt meget nu her. 
+
+
+        
+- Data augmentation, during trainnig. Use it for test, he dont think so
+- GPU, brightspace see tutorial
