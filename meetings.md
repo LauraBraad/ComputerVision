@@ -58,3 +58,12 @@ Notes:
         
 - Data augmentation, during trainnig. Use it for test, he dont think so
 - GPU, brightspace see tutorial
+
+# 3. meeting: 09/04/2024
+Questions: 
+- We have found out to remove data augmentation. Can we use their implementations to handle the experiments (with support from other articles why we use these particular ones)
+    - Or do our project needs us to implement anything ourselves?
+
+- We are thinking to divide it into two different experiments. 
+    1. Test whole dataset validate with their results and test individual traditional data augemntations (all 3 categories)
+    2. Make subset and make test of org. data for comparison and use CycleGen datasets of syntehtic dataset. Maybe also compare with some traditional data augemntations.

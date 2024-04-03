@@ -15,3 +15,7 @@
 - Overfitting / underfitting 
 - Oversampling / undersampling 
 - Test time augmentations / Train time augmentations
+
+--- Generative models --- 
+- https://github.com/zenetio/synthetic-dataset-od/tree/main 
+- http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/ 
