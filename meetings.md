@@ -67,3 +67,6 @@ Questions:
 - We are thinking to divide it into two different experiments. 
     1. Test whole dataset validate with their results and test individual traditional data augemntations (all 3 categories)
     2. Make subset and make test of org. data for comparison and use CycleGen datasets of syntehtic dataset. Maybe also compare with some traditional data augemntations.
+
+- After moving our data to data0 folder, we cannot run the test. AssertionError: Image Not Found coco/images/val2017/000000298251.jpg.
+    - the only thing we have changed is the paths in the coco.yaml file. How else ?? 
