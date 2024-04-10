@@ -59,7 +59,7 @@ Notes:
 - Data augmentation, during trainnig. Use it for test, he dont think so
 - GPU, brightspace see tutorial
 
-# 3. meeting: 09/04/2024
+# 4. meeting: 09/04/2024
 Questions: 
 - We have found out to remove data augmentation. Can we use their implementations to handle the experiments (with support from other articles why we use these particular ones)
     - Or do our project needs us to implement anything ourselves?
@@ -70,3 +70,21 @@ Questions:
 
 - After moving our data to data0 folder, we cannot run the test. AssertionError: Image Not Found coco/images/val2017/000000298251.jpg.
     - the only thing we have changed is the paths in the coco.yaml file. How else ?? 
+
+
+Notes: 
+Q1
+- Just add code from somewhere or make it yourself
+- i understood that we can do what we wanted 
+
+Q2
+- focus on traditionel
+- Anders thinks its sounds reasonable 
+- (I also found doc to do so in the articel for related work)
+
+Q3
+
+ln -s /data0/x ~/yolov7/dataset 
+Creating a symbolic link
+
+Lad det ligge i home (ikke mere end 50G) 
