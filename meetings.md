@@ -88,3 +88,7 @@ ln -s /data0/x ~/yolov7/dataset
 Creating a symbolic link
 
 Lad det ligge i home (ikke mere end 50G) 
+
+# 6. Meeting: 23/04/2024
+- should we set the hyp. prob. to 1.0 or 0.5 (same as them) here fliplr. 
+- should all hyp be tested individually if we have an interresting combination? 

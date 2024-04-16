@@ -19,3 +19,5 @@
 --- Generative models --- 
 - https://github.com/zenetio/synthetic-dataset-od/tree/main 
 - http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/ 
+- https://medium.com/swlh/selecting-and-preparing-a-specific-subset-of-images-from-the-coco-dataset-to-train-yolo-object-1ba8cd0e9f8
+- https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
