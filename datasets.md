@@ -22,6 +22,10 @@ Most commonly used traditional data augmentation:
 
 
 
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+https://medium.com/swlh/selecting-and-preparing-a-specific-subset-of-images-from-the-coco-dataset-to-train-yolo-object-1ba8cd0e9f8 
+
+
 
 TODO: 
 1. Understand different YOLO methods, and choose a first try out version.. 

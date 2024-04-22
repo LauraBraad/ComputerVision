@@ -92,3 +92,7 @@ Lad det ligge i home (ikke mere end 50G)
 # 6. Meeting: 23/04/2024
 - should we set the hyp. prob. to 1.0 or 0.5 (same as them) here fliplr. 
 - should all hyp be tested individually if we have an interresting combination? 
+    - Because we want to test rotate, but nothing is represented 100 % as in the articel we where considering combining degree and perspective
+- Does batchsize matters? we have the retrained model with batch 3, and it gives us a much lower accuracy
+- We can see that in the train file it runs parallel, but we cannot see that on the graphs on the website
+- 
