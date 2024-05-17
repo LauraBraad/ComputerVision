@@ -96,3 +96,56 @@ Lad det ligge i home (ikke mere end 50G)
 - Does batchsize matters? we have the retrained model with batch 3, and it gives us a much lower accuracy
 - We can see that in the train file it runs parallel, but we cannot see that on the graphs on the website
 - 
+
+Batch size, we should increase number of epochs by 2(multiply)
+
+try: 
+- tiny with bact 32
+- original batch 16 and 2 times epochs
+- original batch 8 and 4 times epochs
+
+
+Our training is not comparable, data augmentation need more training. Wo aug does not need as much
+
+Check multiple GPU, device 1 and device 0, 
+
+hyp prob, test different fractions, 
+
+test combinations of fractions, some work better than others with different fractions (måske ikke tidsmæssigt muligt)
+
+Modellen er ikke den vi tester men det er dataaugmentation!! vi skal bare huske at skrive dette!!!!
+
+Vores eksperimenter skal bare give mening, vi skal huske at udpensle
+
+Cycle gan - vi behøves ikke at eksperimentere eller teste, men vi kan bare beskrive den i related work og teori
+for at sige at det er det nye man kan bruge 
+Vi kan godt skrive en "future work" i diskussion, husk på ikke at skrive noget vi kan gøre noget anderledes
+Sammenligning med to aproches (Gan og klassiske metoder)
+
+
+
+# 7. Meeting 30/04/2024
+
+- Original YOLO : 
+
+
+- tiny YOLO : 
+
+
+- We should use the distributed GPU as a baseline with 16 batzh and 1200 epochs
+- As many technique as we can!
+    - compare
+- 2 weeks left, last meeting last meeting next time
+
+Forklar ift teori, hvorfor vi ikke får de samme resultater
+- hvad kendetegner træning, helt gennerelt...!!!  
+    - learningrate ift batchsize
+        - nogle modeller er meget følsom overfor det
+        - normalilsering af billeder 
+    - skaler batchsize så skal man skaler learningrate
+        - anders tror ikke at det skyldes det
+
+- sæt en deadline for hvornår vi begynder med plan b.
+
+
+
